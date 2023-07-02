@@ -1,0 +1,164 @@
+/*body{
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Space Mono', monospace;
+} */
+
+.header-container-h3 > h3{
+    font-family: 'Inconsolata', monospace;
+    font-size: 24px;
+    letter-spacing: -8%;
+    line-height: 25px;
+    font-weight: 700px;
+    margin-top: 10px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+}
+
+
+.section-img-container > img{
+    width: 539px;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.text-container > h1{
+    font-size: 64px;
+    line-height: 94px;
+    font-weight: 700;
+    font-family: 'Space Mono', monospace;
+}
+
+.text-container > p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 35px;
+    font-family: 'Space Mono', monospace;
+    width: 400px;
+
+}
+
+button{
+    height: 68px;
+    width: 216px;
+    background-color: black;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:link{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+/* Small devices (landscape phones, 200px and up) */
+
+@media (min-width: 200px) and (max-width: 575px) {
+    .section-container{
+        display: flex;
+        flex-direction: column;
+        gap: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-img-container > img{
+        width: 370px;
+
+    }
+
+    .text-container > h1{
+        font-size: 48px;
+        font-weight: 700;
+        font-family: 'Space Mono', monospace;
+        padding: 30px;
+
+    }
+    
+    .text-container > p{
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 35px;
+        font-family: 'Space Mono', monospace;
+        width: 400px;
+        padding: 30px;
+    
+    }
+    
+    button{
+        height: 68px;
+        width: 216px;
+        background-color: black;
+        color: white;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .buttom-container{
+        padding: 30px;
+    }
+ 
+
+
+}
+ @media (min-width: 576px) and (max-width:767px){
+     
+     
+ }
+ 
+ /* Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width:991px){
+     
+     
+ }
+ 
+ /* Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width:1199px){
+    
+        
+ }
+ 
+ /* X-Large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) {
+     
+     
+ }
+ 
+ /* XX-Large devices (larger desktops, 1400px and up) */
+ @media (min-width: 1400px) {
+    
+     
+ }
